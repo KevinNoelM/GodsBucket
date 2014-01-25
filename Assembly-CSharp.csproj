@@ -53,11 +53,15 @@
      <Compile Include="Assets\Scripts\CollectPickUps.cs" />
      <Compile Include="Assets\Scripts\CreatePlatform.cs" />
      <Compile Include="Assets\Scripts\FireScript.cs" />
+     <Compile Include="Assets\Scripts\BackgroundScroll.cs" />
+     <Compile Include="Assets\Scripts\CollectPickUps.cs" />
+     <Compile Include="Assets\Scripts\CreatePlatform.cs" />
+     <Compile Include="Assets\Scripts\DeletePlatform.cs" />
      <Compile Include="Assets\Scripts\ItemSpawner.cs" />
      <Compile Include="Assets\Scripts\KickOver.cs" />
      <Compile Include="Assets\Scripts\MovingObject.cs" />
+     <Compile Include="Assets\Scripts\PlatformSpawner.cs" />
      <Compile Include="Assets\Scripts\ScoreScript.cs" />
-     <Compile Include="Assets\Scripts\Spawner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
