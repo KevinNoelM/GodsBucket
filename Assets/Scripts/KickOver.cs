@@ -32,7 +32,6 @@ public class KickOver : MonoBehaviour
                 
             }
             Coll.gameObject.GetComponent<MovingObject>().enabled = true;
-            Debug.Log("jump is true");
             Jump = true;
         }
 
