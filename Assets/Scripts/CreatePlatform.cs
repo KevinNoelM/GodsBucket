@@ -11,7 +11,7 @@ public class CreatePlatform : MonoBehaviour
 
         float x = Random.Range(0.5f, 3);
         this.transform.localScale = new Vector3(x, 1, 0);
-        Instantiate(Obstacles[Random.Range(0, 2)], new Vector2(10, -4), transform.rotation);
+        Instantiate(Obstacles[Random.Range(0, 3)], new Vector2(10, -4), transform.rotation);
 
     }
 

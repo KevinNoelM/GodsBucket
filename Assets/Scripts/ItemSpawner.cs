@@ -4,7 +4,7 @@ using System.Collections;
 public class ItemSpawner : MonoBehaviour
 {
 
-    public GameObject spawnObject;
+    public GameObject[] spawnObjects;
     // Use this for initialization
     void Start()
     {
@@ -16,8 +16,8 @@ public class ItemSpawner : MonoBehaviour
     {
 
         if (Input.GetMouseButtonDown(0))
-        {
-            Instantiate(spawnObject, transform.position, transform.rotation);
+        {          
+            Instantiate(spawnObjects[Random.Range(0, 2)], transform.position, transform.rotation);
         }
 
     }
